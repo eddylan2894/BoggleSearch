@@ -60,7 +60,7 @@ def main():
     # construct the trie by dictionary "words_alph.txt"
     sol = Solution("words_alpha.txt")
     # do the boggle search
-    print(sol.boggle(test_input))
+    print('result:', sol.boggle(test_input))
 
 
 if __name__ == "__main__":
